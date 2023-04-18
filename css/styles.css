@@ -17,7 +17,7 @@
 
 body {
 	background-color: var(--color-bcg-first);
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: var(--color-font-first);
 }
 
@@ -47,7 +47,7 @@ body {
 
 .logo {
 	margin-right: 93px;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 26px;
 	color: #000;
 	text-decoration: none;
@@ -118,17 +118,12 @@ body {
 .contact-link:hover svg {
 	fill: #2196f3;
 }
-	
 
 /* Hero */
 
 .hero {
 	background-color: var(--color-bcg-second);
-	background-image: linear-gradient(
-			rgba(47, 48, 58, 0.4),
-			rgba(47, 48, 58, 0.4)
-		),
-		url(../images/hero-bcg.jpg);
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bcg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	display: flex;
@@ -152,7 +147,7 @@ body {
 }
 
 .btn-hero {
-	font-family: "Roboto" sans-serif;
+	font-family: 'Roboto' sans-serif;
 	color: var(--color-bcg-first);
 	background-color: var(--color-font-third);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -185,7 +180,7 @@ body {
 }
 
 .btn-submenu {
-	font-family: "Roboto" sans-serif;
+	font-family: 'Roboto' sans-serif;
 	text-align: center;
 	background-color: #f5f4fa;
 	padding: 0px 20px;
@@ -217,8 +212,7 @@ body {
 
 .skills-item:hover {
 	cursor: pointer;
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-		1px 4px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .skills-name {
@@ -311,8 +305,26 @@ body {
 	list-style: none;
 }
 .offer-item {
+	position: relative;
 	display: inline-block;
 	margin-right: 20px;
+}
+
+.offer-item > img {
+	display: block;
+}
+
+.offer-description {
+	background-color: rgba(47, 48, 58, 0.8);
+	color: var(--color-bcg-first);
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 27px 0;
+	width: 360px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
 }
 
 /* ourTeam */
@@ -333,8 +345,7 @@ body {
 
 .team-item {
 	background-color: var(--color-bcg-first);
-	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-		0px 2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 	max-width: 270px;
 	display: inline-block;
@@ -450,7 +461,7 @@ body {
 }
 
 .footer .logo {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 26px;
 	color: var(--color-bcg-first);
 }
