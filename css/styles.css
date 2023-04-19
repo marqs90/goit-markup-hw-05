@@ -623,6 +623,7 @@ body {
 	width: 30px;
 	height: 30px;
 	font-size: 20px;
+	transition: .3s;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: var(--color-bcg-first);
 	border-radius: 50%;
@@ -630,6 +631,7 @@ body {
   }
 
   .modal-btn-close:hover {
-	background-color: var(--color-font-third);
-	
+	background-color: rgba(33, 150, 243, 0.7);
+
+
   }
